@@ -1,1 +1,2 @@
 # argon2
+Argon2 is a resilient parrallelized password hashing algorithm based on AES cipher. It is intended to replace Bcrypt, which does not possess memory-hardness. Argon2 has both CPU-hardness and memory hardness. There are three different implementations of Argon2: Argon2d (dependent), Argon2i (independent, side-channel attack resistant), and Argon2id (hybrid---best). The variants refer to how the memory address are selected, based on the password or not. This code uses Argon2 for hashing password.
